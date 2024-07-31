@@ -1,0 +1,57 @@
+html{
+    overflow: hidden;
+}
+
+.MA{
+    height: 92vh !important;
+}
+
+.text{
+    position: relative;
+    top: -70px !important;
+}
+
+.fs3{
+    font-size: 50px;
+}
+.fs4{
+    font-size: 25px;
+
+}
+
+ul{
+    height: 70px;
+    width: 100%;
+}
+
+.out{
+    
+outline-width: 0 !important;
+width: 300px;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.256);
+    width: 100%;
+}
+
+@media screen and (max-width:576px) {
+    section img{
+        height: 100vh;
+    }
+    html{
+        overflow: scroll;
+     }
+     ul{
+        height: fit-content;
+     }
+     ul li{
+        padding: 15px;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.193);
+     }
+
+     ul li img{
+        width: 30px;
+        height:30px;
+     }
+}
